@@ -1,8 +1,8 @@
-var vandaag = new Date();
-
-var date = vandaag.getHours() + "-" + (vandaag.getMinutes() + 1) + "-" + vandaag.getSeconds();
-document.getElementById("date").innerHTML = date;
-
+function myFunction() {
+    var vandaag = new Date();
+    var date = vandaag.getHours() + "-" + (vandaag.getMinutes() + 1) + "-" + vandaag.getSeconds();
+    document.getElementById("demo").innerHTML = date;
+}
 
 const pi = 3.14;
 
